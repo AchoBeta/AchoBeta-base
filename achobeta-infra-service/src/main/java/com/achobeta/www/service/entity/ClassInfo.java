@@ -21,7 +21,7 @@ public class ClassInfo extends BaseIncrIDEntity {
     private String className;
 
     @TableField(value = "c_grade")
-    private String grade;
+    private Integer grade;
 
     @TableField(value = "c_college_name")
     private String collegeName;
